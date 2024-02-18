@@ -1,0 +1,78 @@
+
+footer {
+    background: var(--black-color);
+    text-align: center;
+}
+
+footer .search {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 1rem;
+}
+
+footer .search .search-input {
+    width: 30rem;
+    border-radius: 3rem;
+}
+
+footer .search .btn-primary {
+    margin-left: 1rem;
+    background-color: var(--main-color);
+    padding: 1rem 2rem;
+}
+
+footer .share {
+    padding: 2rem 0;
+}
+
+footer .share a {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+    margin: .3rem;
+}
+
+footer .share a:hover {
+    background-color: $red;
+}
+
+footer .links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+footer .links a {
+    background-color: var(--main-color);
+    padding: .7rem 2rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+}
+
+footer .links a:hover {
+    background-color: $red;
+    opacity: .7;
+}
+
+
+footer .links a.active {
+    background-color: $red;
+}
+
+footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+    padding: 1.5rem 0;
+}
+
+footer .credit span {
+    color: $red;
+}

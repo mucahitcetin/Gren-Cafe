@@ -1,0 +1,15 @@
+.home {
+    min-height: 100vh;
+    background: url(/images/home2.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    & h1{
+        border: 1px solid   #fff;
+        padding: 13px 35px;
+        border-radius: 50px;
+       text-align: center;
+    }
+}

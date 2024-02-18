@@ -1,0 +1,57 @@
+@media (max-width:576px){
+    html{
+        font-size: 50%;
+    }
+    .products__card{
+        grid-template-columns: 1fr;
+    }
+
+h1 {
+    font-size: 30px;
+}
+/* .menuBtn{
+    display: block;
+    cursor: pointer;
+   border: 1px solid red;
+   font-size:  24px;
+   padding: 8px 16px;
+   text-align: center;
+   color: #fff;
+   position: relative;
+   left: 250px;
+   transition: all .3s ease-in-out;
+} */
+  .header__menu{
+   font-size: 12px;
+  }
+
+  
+  .slider button {
+    position: absolute;
+    top: 65%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+
+  .breath{
+   width: 100px;
+   height: 100px;
+   z-index: 1;
+   mix-blend-mode: lighten;
+  }
+
+}

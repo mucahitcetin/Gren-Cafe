@@ -1,0 +1,62 @@
+.rooms{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.slider {
+    position: relative;
+    width: 60%;
+   /*  left: 50%; 
+    transform: translate( -50%); */
+    overflow: hidden; 
+    
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+   
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider button {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+
+  .breath{
+   width: 150px;
+   height: 100px;
+   z-index: 1;
+   mix-blend-mode: lighten;
+  }
